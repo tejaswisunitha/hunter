@@ -1,0 +1,9 @@
+a=int(raw_input())
+n=raw_input().split()
+x=1
+n[0]=int(n[0])
+while(x<a):
+    if(n!=0):
+        n[0]=n[0]*int(n[x])
+    x=x+1
+print(abs(n[0]))
