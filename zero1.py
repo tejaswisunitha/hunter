@@ -40,4 +40,3 @@ for i in oy:
   for i in range(0,len(new)):
     print new[i],
   print "\n",
-
