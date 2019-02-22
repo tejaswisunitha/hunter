@@ -37,6 +37,7 @@ for i in oy:
     if j in ui:
       new.insert(j+1,'0')
       new.remove(new[j])
+        
   for i in range(0,len(new)):
     print new[i],
   print "\n",
